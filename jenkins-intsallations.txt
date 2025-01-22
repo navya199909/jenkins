@@ -1,0 +1,55 @@
+ systemctl start jenkins
+   42  systemctl status jenkins
+   43  top
+   44  git --version
+   45  yum install git -y
+   46  git --version
+   47  top
+   48  pwd
+   49  cd /var/lib/jenkins/workspace/ci-build-job
+   50  ls
+   51  cd ..
+   52  ls
+   53  ls
+   54  top
+   55  systemctl start jenkins
+   56  systemctl status jenkins
+   57  top
+   58  maven --version
+   59  yum install mvn
+   60  sudo yum install maven -y
+   61  maven --version
+   62  maven -version
+   63  mvn --version
+   64  top
+   65  pwd
+   66  cd /var/lib/jenkins
+   67  pwd
+   68  ls
+   69  ls -lart
+   70  mvn -version
+   71  top
+   72  git --version
+   73  mvn -version
+   74  top
+   75  maven -version
+   76  mvn -version
+   77  pwd
+   78  cd ..
+   79  pwd
+   80  cd apache maven
+   81  top
+   82  cd /var/lib/jenkins
+   83  sudo yum install maven
+   84  mvn -version
+   85  cat maven
+   86  cat mvn
+   87  top
+   88  cd repository
+   89  pwd
+   90  cd workspace
+   91  ls
+   92  cd ci-build-job
+   93  ls
+   94  cd target
+   95  ls
