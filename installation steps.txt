@@ -1,0 +1,32 @@
+                   Jenkins
+
+/opt/jdk-11.0.19
+
+
+cd /opt/
+ls
+tar -xvzf jdk-11.0.19_linux-x64_bin.tar.gz
+cd jdk-11.0.19
+
+vi ~/.bashrc
+
+export JAVA_HOME=/opt/jdk-11.0.19
+export PATH=$PATH:JAVA_HOME/bin
+
+source ~/.bashrc
+
+sudo yum install java-11-openjdk-devel -y
+java -version
+
+
+Jenkins Installation Steps:
+--------------------------
+
+yum install epel-release -y
+wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+yum install wget -y
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+yum update -y
+sudo yum install jenkins-2.462.3 -y
+systemctl start jenkins
+systemctl status jenkins
